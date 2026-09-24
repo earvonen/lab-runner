@@ -65,7 +65,7 @@ CANOPY_UI_UPGRADE_VALUES_M03 = {
     "MODEL_NAME": MODEL_NAME,
     "LLM_ENDPOINT": "",  # set dynamically
     "BACKEND_ENDPOINT": "http://canopy-backend:8000",
-    "image": {"name": "canopy-ui", "tag": "0.10"},
+    "image": {"name": "canopy-ui", "tag": "0.12"},
 }
 
 MINIO_VALUES = {
