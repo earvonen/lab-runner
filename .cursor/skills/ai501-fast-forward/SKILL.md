@@ -34,7 +34,7 @@ Registry on the live runner is `GET /api/modules`. Dependencies below are what t
 | ID | Depends on | Run leaves the cluster here |
 |----|------------|-----------------------------|
 | 2 | — | Canopy UI in `{user}-canopy`, MLflow prompt `summarization` |
-| 3 | 2 | Workbench, backend, GitOps, test and prod Canopy |
+| 3 | 2 | Workbench, backend, GitOps, test and prod Canopy, one summarization trace in `{user}-canopy` |
 | 4 | 3 | MinIO, DSPA, eval and prompt-promotion pipelines |
 | 5 | 4 | Milvus, Llama Stack, doc ingestion |
 | 6 | 5 | Grafana, feedback on the test backend |
